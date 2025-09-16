@@ -179,6 +179,10 @@ export default function TabOneScreen() {
           borderWidth: 4,
         },
 
+        challengeStar: {
+          color: "#",
+        },
+
         challengeLevelTag: {
           position: "absolute",
           display: "flex",
@@ -284,16 +288,16 @@ export default function TabOneScreen() {
 
         <View style={styles.headerData}>
           <View style={styles.headerDataContainers}>
-            <StarIcon width={24} height={24} fill="#FFD700" />
+            <StarIcon width={24} height={24} fill="#fff" />
             <Text style={styles.headerDataText}>{points}</Text>
           </View>
 
           <View style={styles.headerDataContainers}>
-            <CrownIcon width={24} height={24} fill="#FFD700" />
+            <CrownIcon width={24} height={24} fill="#fff" />
           </View>
 
           <View style={styles.headerDataContainers}>
-            <BadgeIcon width={24} height={24} fill="#FFD700" />
+            <BadgeIcon width={24} height={24} fill="#fff" />
             <Text style={styles.headerDataText}>{nivel}</Text>
           </View>
         </View>
